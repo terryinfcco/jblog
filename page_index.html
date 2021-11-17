@@ -1,0 +1,10 @@
+---
+layout: page
+title: "Index of All Pages"
+---
+{% assign folder1 = site.pages | where_exp: "item" , "item.path contains 'pages'" %}
+{% for page in folder1 %}
+    <ul>
+    <li><a href={{ page.url }}>{{ page.meta }}</a> </li>
+    </ul>
+{% endfor %}

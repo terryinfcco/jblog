@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Journal Entry for 1-13-2021"
+date:   2021-01-13 08:11:53 -0700
+categories: ubuntu jekyll
+---
+
+## Jekyll Thoughts
+
+Why not just mostly use the jekyll blog online. I can edit from anywhere, the add commit process is easier, but the editor isn't as good. Thinking about it though.
+
+## Ubuntu Thoughts
+
+After listening to the Ubuntu podcase about Rolling Rhino and then the feedback two weeks later. Why not just install the latest Ubuntu LTS and then if I want more 
+up to date software or a different desktop environment to work in, install those in QEMU/KVM or some other kind of container? Worth thinking about.
